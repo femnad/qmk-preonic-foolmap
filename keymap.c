@@ -30,7 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * +-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
  * |   '   |   ,   |   .   |   P   |   Y   |  ESC  | BSPC  |   F   |   G   |   C   |   R   |   L   |
  * +-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
- * |   A   |   O   | HOMEE | HOMEU | INDXI |  TAB  |  ENT  | INDXD | HOMEH | HOMET | HOMEN |   S   |
+ * |   A   | HOMEO | HOMEE | HOMEU | INDXI |  TAB  |  ENT  | INDXD | HOMEH | HOMET | HOMEN |   S   |
  * +-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
  * |   ;   |   Q   |   J   |   K   | DIAGX | ^LSFT | ^RSFT | DIAGB |   M   |   W   |   V   |   Z   |
  * +-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
@@ -42,7 +42,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [BASE] = LAYOUT_preonic_grid(
         KC_1,          KC_2,      KC_3,          KC_4,          KC_5,      KC_TILD,       KC_GRV,        KC_6,      KC_7,          KC_8,          KC_9,      KC_0,
         KC_QUOT,       KC_COMM,   KC_DOT,        KC_P,          KC_Y,      KC_ESC,        KC_BSPC,       KC_F,      KC_G,          KC_C,          KC_R,      KC_L,
-        KC_A,          KC_O,      HOME_E,        HOME_U,        INDX_I,    KC_TAB,        KC_ENT,        INDX_D,    HOME_H,        HOME_T,        HOME_N,    KC_S,
+        KC_A,          HOME_O,    HOME_E,        HOME_U,        INDX_I,    KC_TAB,        KC_ENT,        INDX_D,    HOME_H,        HOME_T,        HOME_N,    KC_S,
         KC_SCLN,       KC_Q,      KC_J,          KC_K,          DIAG_X,    OSM(MOD_LSFT), OSM(MOD_RSFT), DIAG_B,    KC_M,          KC_W,          KC_V,      KC_Z,
         OSM(MOD_LGUI), OSL(MDIA), OSM(MOD_LALT), OSM(MOD_LCTL), OSL(SYMB), KC_SPC,        KC_SPC,        OSL(SYMB), OSM(MOD_RCTL), OSM(MOD_RALT), OSL(MDIA), OSM(MOD_LGUI)
 ),
